@@ -15,3 +15,53 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+
+.get-post-button {
+  margin: 20px 20px;
+  display: block;
+  height: 50px;
+  width: 200px;
+  border-radius: 0;
+  background: linear-gradient(top, #FFFFFF, #A5BBD5);
+  background:-webkit-linear-gradient(top, #FFFFFF, #A5BBD5);
+  background:-moz-linear-gradient(top, #FFFFFF, #A5BBD5);
+}
+
+.get-post-button:active {
+  background: linear-gradient(bottom, #F0F0F0, #A5BBD5);
+  background:-webkit-linear-gradient(bottom, #F1F1F1, #A5BBD5);
+  background:-moz-linear-gradient(bottom, #F1F1F1, #A5BBD5);
+}
+
+.each-post {
+  margin: 10px 20px;
+  display: block;
+}
+
+.new-post {
+  margin: 20px 20px;
+}
+
+.post-body {
+  margin-top: 10px;
+
+}
+.post-title,
+.post-body {
+  display: block;
+}
+
+.submit-button {
+  height: 30px;
+  width: 60px;
+  margin-top: 10px;
+  background: linear-gradient(top, #FFFFFF, #A5BBD5);
+  background:-webkit-linear-gradient(top, #FFFFFF, #A5BBD5);
+  background:-moz-linear-gradient(top, #FFFFFF, #A5BBD5);
+}
+
+.submit-button:active {
+  background: linear-gradient(bottom, #F0F0F0, #A5BBD5);
+  background:-webkit-linear-gradient(bottom, #F1F1F1, #A5BBD5);
+  background:-moz-linear-gradient(bottom, #F1F1F1, #A5BBD5);
+}
